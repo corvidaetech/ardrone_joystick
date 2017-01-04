@@ -137,7 +137,6 @@ struct TeleopArDrone
       if (!srv_cl_cam.call(srv_empty))  ROS_INFO("Failed to toggle Camera");
      }
      cam_toggle_pressed_in_last_msg = cam_toggle_pressed;
-
     }
 
 
